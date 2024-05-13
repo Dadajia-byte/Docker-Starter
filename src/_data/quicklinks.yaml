@@ -1,14 +1,14 @@
 ---
 links:
-  - title: Netlify CMS
+  - title: 有关 Docker
     url: "https://www.netlifycms.org/"
-    desc: Open source content management for your Git workflow
-  - title: Eleventy
+    desc: 点击这里你将会了解到Docker的起源与发展历程
+  - title: Docker 周边
     url: "https://www.11ty.dev/"
-    desc: Eleventy is a simpler static site generator.
-  - title: Alpine.js
+    desc: 这里将会介绍Docker技术所在的生态系统，包括多种多样的相关的插件、工具、拓展等
+  - title: 项目实战
     url: "https://github.com/alpinejs/alpine"
-    desc: A minimal framework for composing JavaScript behavior in your markup.
-  - title: Tailwind CSS
+    desc: 如果你担心仅仅只是学习理论知识，不能够帮助你真正掌握Docker技术，那么这里将会有一些实战项目供你巩固学习
+  - title: 关于自己
     url: "https://tailwindcss.com/"
-    desc: A utility-first CSS framework for rapidly building custom designs.
+    desc: 如果你对本网站涉及的技术感兴趣，这里是一些相关技术的介绍
