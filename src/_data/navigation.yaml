@@ -1,7 +1,7 @@
 ---
 items:
   - text: 快速入门
-    url: "/start"
+    url: "/posts/StartYinyan"
   - text: 开始学习
     url: "#"
   - text: 进阶原理

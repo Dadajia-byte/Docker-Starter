@@ -5,7 +5,13 @@ prism: true
 
 <div style="width: 80%;margin: 0 auto;display: flex;">
     <div style="width: 20%;">
+        {% set postslist = collections.post %}
 
+        {% for post in postslist | reverse %}
+        <ul>
+            <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
+        </ul>
+        {% endfor %}
     </div>
     <div style="width: 70%;">
         <div class="container max-w-4xl mt-6  px-6">
@@ -15,10 +21,8 @@ prism: true
                     <time> {{ date | readableDate }}
                         by
                         <a>{{ author }}</a>
-
                     </time>
                 </p>
-
             </div>
             <article class="prose lg:prose-xl my-4 mx-auto">
                 {{ content | safe }}</article>
