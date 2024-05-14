@@ -1,0 +1,86 @@
+---
+items:
+  - item: 相关插件
+    cot:
+      - text: OpenStorage
+        url: "#"
+        img: '/static/img/ecology/OpenStorage.png'
+        des: '这是一个集群感知的卷插件，为文件和块存储解决方案提供卷管理。它实现了一个供应商中立的规范，用于实现诸如CoS、加密和快照等扩展。它有基于FUSE、NFS、NBD和EBS等的示例驱动程序。'
+      - text: Extensions
+        url: "#"
+        img: 'xxx'
+        des: '它是一个可以扩展Docker Desktop功能和建立新功能的插件，可以无缝集成你的日常工具。无论你是在使用它们还是自己构建它们，自定义集成都变得简单。'
+  - item: 相关应用
+    cot:
+      - text: Docker Desktop
+        url: "#"
+        img: '/static/img/ecology/Docker Desktop.jpg'
+        des: 'Docker Desktop是一个用于建立和分享容器化应用的开发工具，它提供了一个完整的Docker开发环境，适合在Windows和Mac操作系统上使用。'
+      - text: Jenkins
+        url: "#"
+        img: '/static/img/ecology/Jenkins.jpg'
+        des: 'Jenkins是一个开源的持续集成工具，它允许开发者自动化构建和测试他们的应用。使用Docker运行Jenkins可以帮助开发者快速地在任何机器上启动这个工具，而不需要手动安装和配置。'
+      - text: PostgreSQL
+        url: "#"
+        img: 'xxx'
+        des: 'PostgreSQL是一个高级的开源数据库。通过Docker运行PostgreSQL可以大大简化数据库的部署和管理。'
+      - text: Redis
+        url: "#"
+        img: 'xxx'
+        des: 'Redis是一个开源的内存中的数据结构存储系统，通常用作数据库或缓存。使用Docker可以轻松地在任何系统上运行Redis。'
+      - text: 应用五
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'
+      - text: 应用六
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'
+      - text: 应用七
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'
+      - text: 应用八
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'
+  - item: 相关工具箱
+    cot:
+      - text: 工具箱一
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'
+      - text: 工具箱二
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'
+  - item: 相关拓展
+    cot:
+      - text: Disk Usage
+        url: "#"
+        img: 'xxx'
+        des: 'Disk Usage是Docker Inc.的一个Docker扩展，可以帮助开发者理解他们的磁盘使用情况。一旦启用，这个扩展就会分析和分类不同实体/对象（如镜像、容器、本地卷、构建缓存）所使用的磁盘空间。'
+      - text: 拓展二
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'
+  - item: 相关社区
+    cot:
+      - text: 社区一
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'
+      - text: 社区二
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'
+  - item: 相关书籍
+    cot:
+      - text: 书籍一
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'
+      - text: 书籍二
+        url: "#"
+        img: 'xxx'
+        des: '简单介绍'

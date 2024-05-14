@@ -1,0 +1,28 @@
+<div class="w-full my-8 px-4 lg:mx-0">
+    {% if ecology.items %}
+    {% for item in ecology.items %}
+    <div class="mb-4">
+        <h2 class="text-3xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">{{ item.item }}
+        </h2>
+        {% if item.cot %}
+        <div class="flex flex-wrap -mx-2" style="margin-top: 20px;margin-left: 30px;">
+            {% for plugin in item.cot %}
+            <div class="w-3/10 px-2 mb-4">
+                <div class="bg-white shadow-md rounded-lg p-4"
+                    style="min-width: 200px;min-height: 100px;max-width: 350px;">
+                    <a href="{{ plugin.url }}" class="flex items-center space-x-2">
+                        <img src="{{ plugin.img }}" style="border-radius: 50%;width: 60px;height: 60px;"
+                            alt="{{ plugin.text }}" class="w-6 h-6">
+                        <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">{{
+                            plugin.text }}</strong>
+                    </a>
+                    <p style="opacity: 0.8;scale: 0.9;">{{ plugin.des }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+    {% endif %}
+</div>

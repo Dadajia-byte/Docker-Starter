@@ -1,10 +1,10 @@
 ---
 links:
   - title: 有关 Docker
-    url: "https://www.netlifycms.org/"
+    url: "/history"
     desc: 点击这里你将会了解到Docker的起源与发展历程
   - title: Docker 周边
-    url: "https://www.11ty.dev/"
+    url: "/4cont/ecology"
     desc: 这里将会介绍Docker技术所在的生态系统，包括多种多样的相关的插件、工具、拓展等
   - title: 项目实战
     url: "https://github.com/alpinejs/alpine"
